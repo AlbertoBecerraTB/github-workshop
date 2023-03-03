@@ -8,4 +8,5 @@ def suma_valor_min_max():
     suma=min(ls1)+max(ls1)
     return suma
 
-print(suma_valor_min_max())
+if __name__ == "__main__":
+    print(suma_valor_min_max())
