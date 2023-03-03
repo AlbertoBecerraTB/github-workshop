@@ -7,4 +7,4 @@ def suma_lista(lista):
         suma = suma + num 
     return suma
 
-print(suma_lista([2, 4, 9, 3, 9]))
+suma_lista([2, 4, 9, 3, 9])
