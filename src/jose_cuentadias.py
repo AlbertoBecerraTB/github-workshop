@@ -3,5 +3,5 @@ def dia_semana(numero):
     dia = dias.get(numero)
     print(f"El día es {dia}.")
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     dia_semana(7)
