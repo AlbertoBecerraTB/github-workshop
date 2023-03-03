@@ -1,7 +1,10 @@
 def guillermo_diamante ():
+    '''
+    Función que pinta un "diamante" del estilo <> con cualquier tamaño dado en la variable i
+    '''
     ast = []
     cnt=0
-    i = 10
+    i = 10 # Variable que fija el tamaño del dibujo
     while cnt < i:
         ast.append("/")
         ast.append(" ")
