@@ -16,3 +16,4 @@ def guillermo_diamante ():
             j = i+cnt
             k = i-cnt
             print ((" ") * (i-cnt+1)+("\\") + (" ") * (len(range(j,k,-1))) + "/")
+            cnt=cnt-1
